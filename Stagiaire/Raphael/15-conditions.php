@@ -1,6 +1,5 @@
 <?php
 $randNumber = mt_rand(0, 10);
-
 if ($randNumber <= 3) {
     echo "{$randNumber} : Nul, étudie la prochaine fois";
 } elseif ($randNumber <= 5) {
