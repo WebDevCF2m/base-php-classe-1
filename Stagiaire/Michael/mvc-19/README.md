@@ -71,8 +71,9 @@ Pour les besoins de l'exercice, nous allons créer un fichier de configuration `
 
 Le front controller, nommé `public/index.php`, est le seul fichier `php` qui sera accessible à un utilisateur externe.
 
-####
+#### Création du config.php
 
 Il va devoir Recréer config.php pour accéder aux contantes de sécurité.
-```php
+
+        cp config.ini.php config.php
 
